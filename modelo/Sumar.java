@@ -1,4 +1,4 @@
-import modelo.Operaciones;
+package modelo;
 
 public class Sumar extends Operaciones
 {
@@ -7,7 +7,7 @@ public class Sumar extends Operaciones
         super(x,y);
     }
 
-    public void Sumar()
+    public void sumar()
     {
         resultado = x + y;
     }
